@@ -1,4 +1,4 @@
-package com.kasun.microservice;
+package com.kasun;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

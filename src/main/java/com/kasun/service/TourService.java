@@ -7,6 +7,7 @@ import com.kasun.domain.TourPackage;
 import com.kasun.repo.TourPackageRepository;
 import com.kasun.repo.TourRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,7 +16,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class TourService {
 
+    @Autowired
     private TourPackageRepository tourPackageRepository;
+
+    @Autowired
     private TourRepository tourRepository;
 
     @Autowired

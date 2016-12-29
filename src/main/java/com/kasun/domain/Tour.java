@@ -1,14 +1,12 @@
 package com.kasun.domain;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
  * Created by kasunk on 12/27/16.
  */
+@Entity
 public class Tour implements Serializable {
 
     @Id

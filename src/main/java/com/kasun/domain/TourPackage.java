@@ -1,12 +1,14 @@
 package com.kasun.domain;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
  * Created by kasunk on 12/27/16.
  */
+@Entity
 public class TourPackage implements Serializable {
 
     @Id
